@@ -1,0 +1,119 @@
+2023-09-22 03:12:42.493 [info] Extension host with pid 30907 started
+2023-09-22 03:12:42.494 [info] Skipping acquiring lock for /home/chrig/.config/Code/User/workspaceStorage/19ad49c32706c97e50e2205dc3a1159e.
+2023-09-22 03:12:42.554 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-09-22 03:12:42.558 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-22 03:12:42.563 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-09-22 03:12:42.977 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-09-22 03:12:43.392 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2023-09-22 03:12:43.650 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-22 03:12:43.652 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-09-22 03:12:43.799 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-22 03:12:43.818 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-22 03:12:43.894 [info] Eager extensions activated
+2023-09-22 03:12:43.971 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-22 03:12:43.974 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-22 03:45:29.924 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-09-22 03:45:29.953 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-09-22 04:51:44.085 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-22 04:51:44.111 [error] TypeError: r.some is not a function
+	at d.saveToDisk (/home/chrig/.vscode/extensions/vscodevim.vim-1.26.0/out/extension.js:2:671249)
+	at t.deactivate (/home/chrig/.vscode/extensions/vscodevim.vim-1.26.0/out/extension.js:2:211396)
+	at n.Z (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9460)
+	at /snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7585
+	at Array.map (<anonymous>)
+	at n.S (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7572)
+	at n.terminate (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7844)
+	at o.terminate (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:1513)
+	at D (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:9800)
+	at MessagePortMain.<anonymous> (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:6225)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+2023-09-22 04:51:44.111 [error] Canceled: Canceled
+	at new h (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+	at i.O (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+	at j.<computed>.T.charCodeAt.j.<computed> (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+	at r.g (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82208)
+	at r.executeCommand (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+	at u.registerCommand.description (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:80967)
+	at r.h (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82744)
+	at r.g (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81739)
+	at r.executeCommand (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+	at Object.executeCommand (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:21247)
+	at n.D [as value] (/snap/code/140/usr/share/code/resources/app/extensions/git/dist/main.js:2:1309000)
+	at m.w (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.x (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1972)
+	at m.fire (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2188)
+	at Object.m [as dispose] (/snap/code/140/usr/share/code/resources/app/extensions/git/dist/main.js:2:1324784)
+	at /snap/code/140/usr/share/code/resources/app/extensions/git/dist/main.js:2:1329625
+	at Array.forEach (<anonymous>)
+	at g.dispose (/snap/code/140/usr/share/code/resources/app/extensions/git/dist/main.js:2:1329611)
+	at E.<anonymous> (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:103:3484)
+	at E.dispose (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:103:3581)
+	at E.<anonymous> (/snap/code/140/usr/share/code/resources/app/extensions/git/dist/main.js:2:1311012)
+	at E.dispose (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:103:3581)
+	at k (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:13:11730)
+	at n.Z (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9652)
+	at /snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7585
+	at Array.map (<anonymous>)
+	at n.S (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7572)
+	at n.terminate (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7844)
+	at o.terminate (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:1513)
+	at D (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:9800)
+	at MessagePortMain.<anonymous> (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:6225)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-22 04:51:44.111 [error] Canceled: Canceled
+	at new h (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+	at i.O (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+	at j.<computed>.T.charCodeAt.j.<computed> (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+	at r.g (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82208)
+	at r.executeCommand (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+	at u.registerCommand.description (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:80967)
+	at r.h (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:82744)
+	at r.g (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81739)
+	at r.executeCommand (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+	at Object.executeCommand (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:21247)
+	at set b [as b] (/snap/code/140/usr/share/code/resources/app/extensions/github/dist/extension.js:2:714434)
+	at /snap/code/140/usr/share/code/resources/app/extensions/github/dist/extension.js:2:715075
+	at n.value (/snap/code/140/usr/share/code/resources/app/extensions/git/dist/main.js:2:1396602)
+	at m.w (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.x (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1972)
+	at m.fire (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2188)
+	at Object.m [as dispose] (/snap/code/140/usr/share/code/resources/app/extensions/git/dist/main.js:2:1324784)
+	at /snap/code/140/usr/share/code/resources/app/extensions/git/dist/main.js:2:1329625
+	at Array.forEach (<anonymous>)
+	at g.dispose (/snap/code/140/usr/share/code/resources/app/extensions/git/dist/main.js:2:1329611)
+	at E.<anonymous> (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:103:3484)
+	at E.dispose (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:103:3581)
+	at E.<anonymous> (/snap/code/140/usr/share/code/resources/app/extensions/git/dist/main.js:2:1311012)
+	at E.dispose (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:103:3581)
+	at k (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:13:11730)
+	at n.Z (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9652)
+	at /snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7585
+	at Array.map (<anonymous>)
+	at n.S (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7572)
+	at n.terminate (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7844)
+	at o.terminate (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:1513)
+	at D (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:9800)
+	at MessagePortMain.<anonymous> (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:6225)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-22 04:51:44.152 [error] [ms-vscode.cpptools] provider FAILED
+2023-09-22 04:51:44.152 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/chrig/.vscode/extensions/ms-vscode.cpptools-1.17.5-linux-x64/dist/main.js:64108:27)
+	at Object.dispose (/home/chrig/.vscode/extensions/ms-vscode.cpptools-1.17.5-linux-x64/dist/main.js:67860:35)
+	at /home/chrig/.vscode/extensions/ms-vscode.cpptools-1.17.5-linux-x64/dist/main.js:67275:28
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Object.deactivate (/home/chrig/.vscode/extensions/ms-vscode.cpptools-1.17.5-linux-x64/dist/main.js:90101:5)
+	at async Promise.all (index 11)
+	at async n.S (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7599)
+2023-09-22 04:51:44.152 [error] [ms-vscode.cpptools] provider FAILED
+2023-09-22 04:51:44.152 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/chrig/.vscode/extensions/ms-vscode.cpptools-1.17.5-linux-x64/dist/main.js:64108:27)
+	at Object.dispose (/home/chrig/.vscode/extensions/ms-vscode.cpptools-1.17.5-linux-x64/dist/main.js:67860:35)
+	at /home/chrig/.vscode/extensions/ms-vscode.cpptools-1.17.5-linux-x64/dist/main.js:67275:28
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Object.deactivate (/home/chrig/.vscode/extensions/ms-vscode.cpptools-1.17.5-linux-x64/dist/main.js:90101:5)
+	at async Promise.all (index 11)
+	at async n.S (/snap/code/140/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7599)
+2023-09-22 04:51:49.108 [info] Extension host with pid 30907 exiting with code 0

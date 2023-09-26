@@ -1,0 +1,7 @@
+2023-09-22 02:58:09.667 [info] Started initializing default profile extensions in extensions installation folder. file:///home/chrig/.vscode/extensions
+2023-09-22 02:58:09.990 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/chrig/.vscode/extensions
+2023-09-22 02:58:12.648 [info] [perf] Render performance baseline is 52ms
+2023-09-22 02:58:31.629 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-09-22 02:58:32.106 [error] [Extension Host] (node:27253) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-09-22 03:00:53.524 [error] ENOENT: no such file or directory, open '/home/chrig/.config/Code/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/chrig/.config/Code/User/globalStorage/vscodevim.vim/.registers'

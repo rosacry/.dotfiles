@@ -1,0 +1,16 @@
+{
+  "suggest.noselect": false,
+  "diagnostic.enableMessage": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "graphql",
+    "py",
+    "java",
+    "cpp"
+  ]
+}

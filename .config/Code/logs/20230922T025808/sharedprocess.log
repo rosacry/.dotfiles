@@ -1,0 +1,52 @@
+2023-09-22 02:58:09.929 [info] Started initializing default profile extensions in extensions installation folder. file:///home/chrig/.vscode/extensions
+2023-09-22 02:58:10.115 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/chrig/.vscode/extensions Unable to create file 'vscode-userdata:/home/chrig/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-09-22 02:58:10.116 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/chrig/.vscode/extensions
+2023-09-22 02:58:23.909 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2023-09-22 02:58:23.917 [info] Installing extension: ms-vscode.cpptools-extension-pack
+2023-09-22 02:58:24.456 [info] Getting Manifest... ms-vscode.cpptools
+2023-09-22 02:58:24.499 [info] Getting Manifest... ms-vscode.cmake-tools
+2023-09-22 02:58:24.595 [info] Getting Manifest... twxs.cmake
+2023-09-22 02:58:24.667 [info] Getting Manifest... ms-vscode.cpptools-themes
+2023-09-22 02:58:24.746 [info] Installing extension: ms-vscode.cpptools ms-vscode.cpptools-extension-pack
+2023-09-22 02:58:24.747 [info] Installing extension: ms-vscode.cmake-tools ms-vscode.cpptools-extension-pack
+2023-09-22 02:58:24.747 [info] Installing extension: twxs.cmake ms-vscode.cpptools-extension-pack
+2023-09-22 02:58:24.747 [info] Installing extension: ms-vscode.cpptools-themes ms-vscode.cpptools-extension-pack
+2023-09-22 02:58:26.637 [info] Extension signature is verified: ms-vscode.cpptools-themes
+2023-09-22 02:58:26.637 [info] Extension signature is verified: ms-vscode.cmake-tools
+2023-09-22 02:58:26.686 [info] Extracted extension to file:///home/chrig/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0: ms-vscode.cpptools-themes
+2023-09-22 02:58:26.691 [info] Extension signature is verified: twxs.cmake
+2023-09-22 02:58:26.692 [info] Renamed to /home/chrig/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0
+2023-09-22 02:58:26.696 [info] Extracting extension completed. ms-vscode.cpptools-themes
+2023-09-22 02:58:26.957 [info] Extracted extension to file:///home/chrig/.vscode/extensions/twxs.cmake-0.0.17: twxs.cmake
+2023-09-22 02:58:26.965 [info] Renamed to /home/chrig/.vscode/extensions/twxs.cmake-0.0.17
+2023-09-22 02:58:26.967 [info] Extracting extension completed. twxs.cmake
+2023-09-22 02:58:26.972 [info] Extracted extension to file:///home/chrig/.vscode/extensions/ms-vscode.cmake-tools-1.15.31: ms-vscode.cmake-tools
+2023-09-22 02:58:26.978 [info] Renamed to /home/chrig/.vscode/extensions/ms-vscode.cmake-tools-1.15.31
+2023-09-22 02:58:26.983 [info] Extracting extension completed. ms-vscode.cmake-tools
+2023-09-22 02:58:28.728 [info] Extension signature is verified: ms-vscode.cpptools
+2023-09-22 02:58:30.707 [info] Extracted extension to file:///home/chrig/.vscode/extensions/ms-vscode.cpptools-1.17.5-linux-x64: ms-vscode.cpptools
+2023-09-22 02:58:30.718 [info] Renamed to /home/chrig/.vscode/extensions/ms-vscode.cpptools-1.17.5-linux-x64
+2023-09-22 02:58:30.728 [info] Extracting extension completed. ms-vscode.cpptools
+2023-09-22 02:58:31.524 [info] Extension signature is verified: ms-vscode.cpptools-extension-pack
+2023-09-22 02:58:31.532 [info] Extracted extension to file:///home/chrig/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.0: ms-vscode.cpptools-extension-pack
+2023-09-22 02:58:31.534 [info] Renamed to /home/chrig/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.0
+2023-09-22 02:58:31.535 [info] Extracting extension completed. ms-vscode.cpptools-extension-pack
+2023-09-22 02:58:31.543 [info] Extension installed successfully: ms-vscode.cpptools-themes
+2023-09-22 02:58:31.543 [info] Extension installed successfully: twxs.cmake
+2023-09-22 02:58:31.543 [info] Extension installed successfully: ms-vscode.cmake-tools
+2023-09-22 02:58:31.543 [info] Extension installed successfully: ms-vscode.cpptools
+2023-09-22 02:58:31.543 [info] Extension installed successfully: ms-vscode.cpptools-extension-pack
+2023-09-22 03:00:42.510 [info] Getting Manifest... mechatroner.rainbow-csv
+2023-09-22 03:00:42.527 [info] Installing extension: mechatroner.rainbow-csv
+2023-09-22 03:00:43.735 [info] Extension signature is verified: mechatroner.rainbow-csv
+2023-09-22 03:00:43.800 [info] Extracted extension to file:///home/chrig/.vscode/extensions/mechatroner.rainbow-csv-3.7.1: mechatroner.rainbow-csv
+2023-09-22 03:00:43.809 [info] Renamed to /home/chrig/.vscode/extensions/mechatroner.rainbow-csv-3.7.1
+2023-09-22 03:00:43.811 [info] Extracting extension completed. mechatroner.rainbow-csv
+2023-09-22 03:00:43.818 [info] Extension installed successfully: mechatroner.rainbow-csv
+2023-09-22 03:00:51.205 [info] Getting Manifest... vscodevim.vim
+2023-09-22 03:00:51.214 [info] Installing extension: vscodevim.vim
+2023-09-22 03:00:52.223 [info] Extension signature is verified: vscodevim.vim
+2023-09-22 03:00:52.265 [info] Extracted extension to file:///home/chrig/.vscode/extensions/vscodevim.vim-1.26.0: vscodevim.vim
+2023-09-22 03:00:52.274 [info] Renamed to /home/chrig/.vscode/extensions/vscodevim.vim-1.26.0
+2023-09-22 03:00:52.276 [info] Extracting extension completed. vscodevim.vim
+2023-09-22 03:00:52.282 [info] Extension installed successfully: vscodevim.vim
