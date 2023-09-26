@@ -1,6 +1,7 @@
 clear    Lock
 keycode  66 = Escape
 
+keycode 64 = Mode_switch
 keycode 43 = h H Left
 keycode 44 = j J Down
 keycode 45 = k K Up
