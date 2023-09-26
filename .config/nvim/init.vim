@@ -56,7 +56,8 @@ set noshowmode
 set hidden
 set updatetime=100
 set shortmess+=c
-set signcolumn=yes
+set signcolumn=no
+set foldcolumn=0
 set wrap linebreak
 set splitbelow
 set errorformat=%A%f:%l:\ %m,%-Z%p^,%-C%.%#
