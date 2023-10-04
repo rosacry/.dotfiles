@@ -84,3 +84,5 @@ end
 
 # Install Starship
 starship init fish | source
+
+#xmodmap commands

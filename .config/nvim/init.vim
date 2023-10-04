@@ -310,6 +310,7 @@ nnoremap <silent><F8> :call Execute()<CR>
 map <F9> :cnext<Return>
 map <F10> :cnext<Return>
 noremap <silent><F11> :call CopilotToggle(g:toggle)<CR>
+noremap <silent><F12> :call source init.vim<CR>
 
 "-------------------------------------------------------------------------------------------
 
