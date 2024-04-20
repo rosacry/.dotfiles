@@ -29,18 +29,18 @@ call plug#end()
 "-------------------------------------------------------------------------------------------
 
 "Unbind Function Keys
-map! <F1> <nop>
-map! <F2> <nop>
-map! <F3> <nop>
-map! <F4> <nop>
-map! <F5> <nop>
-map! <F6> <nop>
-map! <F7> <nop>
-map! <F8> <nop>
-map! <F9> <nop>
-map! <F10> <nop>
-map! <F11> <nop>
-map! <F12> <nop>
+noremap <F1> :
+noremap <F2> :
+noremap <F3> :
+noremap <F4> :
+noremap <F5> :
+noremap <F6> :
+noremap <F7> :
+noremap <F8> :
+noremap <F9> :
+noremap <F10> :
+noremap <F11> :
+noremap <F12> :
 
 "-------------------------------------------------------------------------------------------
 
@@ -74,7 +74,7 @@ augroup END
 function Compile()
   if (&ft=='c' || &ft=='cpp')
     echo "Compiling..."
-    :silent :w | :make! CC=clang %<
+    :silent :w | :make! CC=clang
     echo "Compiled"
   elseif (&ft=='java')
     echo "Compiling..."
