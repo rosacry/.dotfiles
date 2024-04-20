@@ -54,3 +54,8 @@ omf install nvm
 
 #Become a super user
 echo 'chrig ALL=(ALL) NOPASSWD: ALL' | sudo EDITOR='tee -a' visudo > /dev/null
+
+#Move new font to /usr/share/fonts
+cp Liga-Sauce-Code-Pro-Medium-Nerd-Font-Complete.otf ~/usr/share/fonts
+
+
