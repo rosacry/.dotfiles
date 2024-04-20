@@ -1,5 +1,6 @@
 #!/bin/bash
 
+DOTFILES_DIR="$HOME/.dotfiles"
 PACKAGE_LIST="$DOTFILES_DIR/installed_packages.list"
 
 # Set package selections and upgrade
