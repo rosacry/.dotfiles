@@ -1,7 +1,7 @@
 # apps... but better
 alias git=hub
 alias vim=nvim
-alias ls=lsd
+alias ls=sudo lsd
 
 # git
 abbr -a gs  git status -sb

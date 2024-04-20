@@ -86,3 +86,8 @@ end
 starship init fish | source
 
 #xmodmap commands
+
+#set -gx PATH /usr/local/bin $PATH
+#set -gx TERM xterm-256color
+#set -gx UID (id -u)
+#set -gx EUID (id -u)

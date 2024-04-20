@@ -12,6 +12,11 @@ sudo apt-get install python-pip
 # Installing nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
+# Installing starship
+curl -sS https://starship.rs/install.sh | sh
+# Installing jump for fish and starship
+sudo snap install jump
+
 # First, stow your configurations
 sudo stow -t ~/.config .config && stow -t ~ Xmodmap
 
@@ -37,3 +42,9 @@ while IFS= read -r package || [[ -n "$package" ]]; do
         }
     }
 done < "installed_packages.list"
+
+#Makes fish main shell
+chsh -s /usr/bin/fish
+
+#Become a super user
+echo 'chrig ALL=(ALL) NOPASSWD: ALL' | sudo EDITOR='tee -a' visudo > /dev/null

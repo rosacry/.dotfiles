@@ -6,7 +6,7 @@ SETUVAR FZF_LEGACY_KEYBINDINGS:0
 SETUVAR FZF_PREVIEW_DIR_CMD:ls
 SETUVAR FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
 SETUVAR FZF_TMUX_HEIGHT:40\x25
-SETUVAR NVM_DIR:/usr/local/opt/nvm
+SETUVAR --export NVM_DIR:/home/chrig/\x2envm
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_ga:git\x20add
 SETUVAR _fish_abbr_gc:git\x20commit
@@ -62,4 +62,4 @@ SETUVAR fish_pager_color_description:brblack
 SETUVAR fish_pager_color_prefix:\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brblack
 SETUVAR fish_pager_color_selected_background:\x2d\x2dreverse
-SETUVAR fish_user_paths:/opt/homebrew/bin\x1e/opt/homebrew/opt/llvm/bin\x1e/Users/matchai/\x2ecargo/bin
+SETUVAR fish_user_paths:/usr/local/bin
