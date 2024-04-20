@@ -46,5 +46,11 @@ done < "installed_packages.list"
 #Makes fish main shell
 chsh -s /usr/bin/fish
 
+#Install ohmyfish
+curl -L https://get.oh-my.fish | fish
+
+#Install nvm
+omf install nvm
+
 #Become a super user
 echo 'chrig ALL=(ALL) NOPASSWD: ALL' | sudo EDITOR='tee -a' visudo > /dev/null
