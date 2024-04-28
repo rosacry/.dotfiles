@@ -58,4 +58,11 @@ echo 'chrig ALL=(ALL) NOPASSWD: ALL' | sudo EDITOR='tee -a' visudo > /dev/null
 #Move new font to /usr/share/fonts
 cp Liga-Sauce-Code-Pro-Medium-Nerd-Font-Complete.otf ~/usr/share/fonts
 
+#Commands to set font
+gsettings set org.gnome.desktop.interface font-name 'LigaSauceCodePro Nerd Font Medium 11'
+gsettings set org.gnome.desktop.interface document-font-name 'LigaSauceCodePro Nerd Font Medium 11'
+gsettings set org.gnome.desktop.interface monospace-font-name 'LigaSauceCodePro Nerd Font Medium 11'
+gsettings set org.gnome.desktop.wm.preferences titlebar-font 'LigaSauceCodePro Nerd Font Medium 11'
+
+
 
