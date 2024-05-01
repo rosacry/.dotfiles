@@ -12,5 +12,6 @@
     "py",
     "java",
     "cpp"
-  ]
+  ],
+  "snippets.ultisnips.pythonPrompt": false
 }
