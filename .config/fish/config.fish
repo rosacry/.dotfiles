@@ -1,4 +1,5 @@
 source ~/.config/fish/alias.fish
+source ~/.config/fish/activate.fish
 #set JAVA_HOME $(/usr/libexec/java_home)
 set EDITOR 'nvim'
 
